@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tired Club</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="icon" type="image" href="./assets/img/title-icon.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i><b>خانه</b></a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i><b> درباره ما</b></a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i><b>نمونه کار</b></a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i><b> ارتباط با ما</b></a>
+            <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+                <i class="fa fa-search"></i>
+            </a> -->
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">درباره ما</a>
+            <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">نمونه کار</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">ارتباط با ما</a>
+            <!-- <a href="#" class="w3-bar-item w3-button">جستوجو</a> -->
+        </div>
+    </div>
+
+   <!-- First Parallax Image with Logo Text -->
+   <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-black w3-xxlarge w3-wide w3-animate-opacity">
+              <span class="w3-hide-large">
+                Tired Club
+              </span> 
+              <span class="w3-hide-small">
+                Tired Programmer's Club
+              </span>
+            </span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">معرفی رکورد داران باشگاه</h3>
+        <p class="w3-center"><em>Our champion</em></p>
+        <p style="text-align: center;">طبق تحقیقات بهترین محققان آکسفورد روی مادر خستگی جهان هرانوش سادات صالح: با استفاده از تنبلی در هر زمینه از کار های زندگی خود و دل ندادن به کار و دائم الخسته و بهونه آوردن در تمام انتخاب های زندگی می توان علاوه بر گاییدن همه تبدیل به خسته ترین برنامه نویس جهان شد</p>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <p><b><i class="fa fa-user w3-margin-right"></i>REZA/NIMA/HERA</b></p><br>
+                <img src="./assets/img/all.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me"
+                    width="500" height="333">
+            </div>
+
+            <!-- Hide this text on small devices -->
+            <div class="w3-col m6 w3-padding-large">
+                <p dir="rtl">نیما شفیعی  که در رتبه دوم قرار دارد از دقیق ترین افراد در ضمینه برنامه ریزی می باشد به این صورت که تا ناموس برنامه ریزی میکند اما وقتی که زمان اجرای آن می رسد نیروی خستگی از هر طرف به او غلبه می کند.به صورتی که انگار اصلا از قبل هیچ برنامه ای ریخته نشده است.<br>هرانوش بانو که در رتبه یک این باشگاه قرار دارد شکست ناپذیر ترین بانوی خسته در رشته ی برنامه نویسی بوده که گرد خوابش به پای هیچ کسی نمیرسد و نخواهد رسید.هرانوش بانو این استعداد را از بدو تولد به همراه دارد و انقدر در این مورد حرفه ای می باشد که افسانه ها میگویند که گاهی او هنگام راه رفتن هم می خوابد.<br>رضا منصوری که در رتبه سوم این باشگاه قرار دارد از تجربه های بدرد نخور بالایی برخوردار است که تابحال هیچ کدام از آنها به دردش نخورده است.با اینکه تعداد مدارک او بالا می باشد اما گاهی تعداد و اسم آنها از یادش می رود.شاید به تازگی وارد رشته ی خستگی شده باشد اما میزان آگاهی و تجربه ی او در فراموشی به قدری زیاد است که اگر اسمش را هم یادش برود جای تعجبی نیست.</p>
+            </div>
+            
+        </div>
+        <p class="w3-large w3-center w3-padding-16"> : تخصص های ما در برنامه نویسی</p>
+        <p class="w3-wide">HTML</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:60%">60%</div>
+        </div>
+        <p class="w3-wide">CSS</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:50%">50%</div>
+        </div>
+        <p class="w3-wide">JAVASCRIPT</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:30%">30%</div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">3+</span><br>
+            Partners
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">7+</span><br>
+            Projects Done
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">5+</span><br>
+            Happy Clients
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">20+</span><br>
+            Meetings
+        </div>
+    </div>
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div style="text-align: center;" class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white">برنامه نویسان خسته در کنار چهره های معروف روز هالییود</span>
+        </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+        <h3 class="w3-center">گروهی از افراد عضو در باشگاه</h3>
+        <p class="w3-center"><em>در این قسمت تعدادی از افراد را که در باشگاه عضو هستند را مشاهده می کنید<br>برای بزرگ شدن عکس روی آن کلیک کنید</em></p><br>
+                
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center">
+            <div class="w3-col m3">
+                <img src="./assets/img/sleep (1).jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="کارمندان خسته">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="./assets/img/sleep (8).jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="معتادان خسته">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="./assets/img/sleep (9).jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="دانشجویان خسته">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="./assets/img/sleep (10).jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="خوابالو های خسته">
+            </div>
+        </div>
+
+        <div class="w3-row-padding w3-center w3-section">
+            <div class="w3-col m3">
+                <img src="./assets/img/sleep (11).jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                     alt="برنامه نویسان خسته">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="./assets/img/sleep (12).jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="مردان بیزینس خسته">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="./assets/img/sleep (13).jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="جنده های خسته">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="./assets/img/sleep (14).jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                     alt="خستگاه روی پشت بام">
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+                class="fa fa-remove"></i></span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="./assets/img/img01" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+    </div>
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white">چرخه ی زندگی برنامه نویسان خسته</span>
+        </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h3 class="w3-center">ارتباط با ما</h3>
+        <p class="w3-center"><em>We'd love your feedbacks!</em></p>
+
+        <div class="w3-row w3-padding-32 w3-section">
+            <div class="w3-col m4 w3-container">
+                <img src="https://www.w3schools.com/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
+            </div>
+            <div class="w3-col m8 w3-panel">
+                <div class="w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Tehran, East<br>
+                    <!-- <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00151515<br> -->
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> reza.mansouri4497@gmail.com<br>
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> nimashafiee510@gmail.com<br>
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> hillaxn@yahoo.com<br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>برگشت به بالا</a>
+        <div class="w3-xlarge w3-section">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-small">Powered By Rj</p>
+    <!-- Footer end. -->
+    </footer>
+
+</body>
+<script src="./assets/js/javascript.js"></script>
+</html>
